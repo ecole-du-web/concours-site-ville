@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résultats Concours</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Résultats du Concours : Créer et coder le site d'une Ville. 🏆
+      </h1>
+      <table class="contest-table">
+        <thead>
+          <tr>
+            <th>Pseudo</th>
+            <th>Qualité du code/Bonnes pratiques</th>
+            <th>UI/UX, design, esthétisme, respect du thème, originalité</th>
+            <th>Global</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.Gamerbike</td>
+            <td>
+              <p>Note : 70</p>
+              <p>Points positifs:</p>
+              <ul>
+                <li>- Bon design system en rapport avec le sujet du site.</li>
+                <li>- Sections bien construites</li>
+                <li>- Bonne hiérarchie, bon rythme la plupart du temps</li>
+                <li>- Pas mal d'animations et d'interactions sympas qui fonctionnent bien</li>
+                <li>- Bonne typo en général, bonne palette de couleurs</li>
+              </ul>
+              <p>Points à revoir:</p>
+              <ul>
+                <li>
+                  - La couleur sombre des sections qui s'empilent les unes sur
+                  les autres ne fonctionne pas très bien, ou alors il faudrait
+                  une bordure-top sur les sections pour mieux voir le défilement
+                </li>
+                <li>
+                  - Certains textes sont trop gros ou trop petits (menu, texte à
+                  l'intérieur des sections)
+                </li>
+                <li>
+                  - Certaines animations sont à revoir, comme le petit
+                  indicateur de scroll qui descend trop vite par rapport à mon
+                  scroll.
+                </li>
+              </ul>
+            </td>
+            <td><p>Note : 89</p>
+            <p>Points positifs:</p>
+            <ul>
+              <li>- Interface bien responsive.</li>
+              <li>- Bonne accessibilité générale.</li>
+              <li>- Bonnes perf.</li>
+              <li>- Bonne utilisation des images.</li>
+              <li>- Utilisation de next au lieu de react seul.</li>
+              <li>- Bonne utilisation de gsap et des technos du projet.</li>
+              <li>- Bonne architecture de dossier.</li>
+            </ul>
+            <p>Points à revoir: xxx</p>
+            </td>
+            <td class="global-result"><p>79.5</p></td>
+          </tr>
+
+
+
+          <tr>
+            <td>2.Elvin Code</td>
+            <td>
+              <p>Note : 76</p>
+              <p>Points positifs:</p>
+              <ul>
+                <li>- Gros travail de personnalisation du site, on ressent et on peut vérifier que chaque section est travaillée.</li>
+                <li>- Beaucoup d'animations et d'interactions réussies.</li>
+                <li>- Un design system efficace (couleurs, typo, etc...)</li>
+                <li>- Une bonne hiérarchie et un bon rythme dans les sections</li>
+                <li>- Des détails sympathiques, comme l'animation du bouton de like entre autres</li>
+                <li>- Une bonne utilisation de la typo et du texte en général, au niveau des couleurs, des tailles, de la font-weight,etc...</li>
+              </ul>
+              <p>Points à revoir:</p>
+              <ul>
+                <li>- Il y a parfois beaucoup d'animations qui se suivent, rendant la navigation un peu chargée, n'hésite pas à rendre des sections plus neutres pour que l'utilisateur ne soit pas trop perdu.</li>
+                <li>- Le menu "Tourist areas" apparaît sans qu'on clique dessus, avec une petite latence, et disparaît également avec un petit temps d'animation trop élevé. Rendre cette interaction plus rapide ou basée sur un clic encombrerait un peu moins l'écran sans le vouloir.</li>
+                <li>- La navigation hamburger est animée, et on sent l'effort fourni, mais l'animation est lente et ne convient pas vraiment au site. Le flou ne passe pas très bien ici. Autant faire un petit menu rideau rapide avec une couleur blanche de fond.</li>
+                <li>- Le loader montré entre chaque page pourrait être un peu plus travaillé, même si j'ai compris qu'il représente le drapeau du Japon. Un petit texte stylé  ou une autre animation serait plus sympa;</li>
+                <li>- J'aurais pris un peu plus de risques au niveau des couleurs, là il y a surtout du noir et blanc. Pourquoi ne pas utiliser le rouge du drapeau du Japon pour certains CTA ?</li>
+              </ul>
+            </td>
+            <td><p>Note : 63</p>
+            <p>Points positifs:</p>
+            <ul>
+              <li>- Interface bien responsive.</li>
+              <li>- Beaucoup de commits qui montrent le sérieux du projet.</li>
+              <li>- L'architecture du projet est plutôt bonne et bien organisée.</li>
+              <li>- Tu respectes la plupart des bonnes pratiques des technos utilisées.</li>
+            </ul>
+            <p>Points à revoir:</p>
+            <ul>
+              <li>- Attention aux performances, et notamment à la taille des images ! Essaye de travailler avec la fonctionnalité lighthouse des devtools pour prévenir tout ça.</li>
+              <li>- Certains problèmes d'accessiblité : contraste, boutons, ordre des headings.</li>
+              <li>- Tu as utilisé Vue et vue router, mais cela peut poser des problèmes de SEO si on veut bien référencer ce genre de site. Utiliser Nuxt pourrait prévenir ces problèmes. Même si Nuxt rendrait plus compliquée certaines animations, ce serait un choix plus judicieux.</li>
+              <li>- Certains fichiers sont immenses et mériteraient d'être découpés en sous composants (About.vue, Contact, etc...)</li>
+            </ul>
+            </td>
+            <td class="global-result"><p>69.5</p></td>
+          </tr>
+
+
+
+
+
+
+
+
+
+
+          
+          <tr>
+            <td>3.Souleymane Sy</td>
+            <td>
+              <p>Note : 60</p>
+              <p>Points positifs:</p>
+              <ul>
+                <li>- Sections bien définies, qui prennent souvent la totalité de l'écran.</li>
+                <li>- Effort sur le design system, avec la palette de couleurs, les polices d'écriture.</li>
+                <li>- Bonne hiérarchie des éléments dans les sections.</li>
+                <li>- Bon rythme et espacement pour la plupart des sections.</li>
+                <li>- Bon footer avec les liens associés aux sections de la page.</li>
+                <li>- Bon contraste.</li>
+              </ul>
+              <p>Points à revoir:</p>
+              <ul>
+                <li>- Ajout d'animations et ou d'interactions au scroll ou autre pour rendre la page un peu plus vivante.</li>
+                <li>- Certains sliders <> ne fonctionnent pas.</li>
+                <li>- Tu aurais pu gérer les "voir plus", même avec des données locales.</li>
+              </ul>
+            </td>
+            <td><p>Note : 38</p>
+            <p>Points positifs:</p>
+            <ul>
+              <li>- Accessibilité et SEO OK</li>
+              <li>- Utilisation de sass correcte mais attention au naming de certains dossiers/fichiers comme "pages" qui gère les sections</li>
+              <li>- Pareil pour le dossier src</li>
+              <li>- Responsive ok</li>
+            </ul>
+            <p>Points à revoir:</p>
+            <ul>
+              <li>- Fais attention à la taille des images, ça tue les perfs de la page.</li>
+              <li>- Pourquoi utiliser React pour un site ultra statique ? Le choix de la techno ne fait pas sens. Il aurait fallu utiliser Next.</li>
+            </ul>
+            </td>
+            <td class="global-result"><p>48</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
